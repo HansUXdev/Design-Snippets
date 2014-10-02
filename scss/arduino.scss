@@ -1,0 +1,84 @@
+
+@import "prefix";
+
+
+#arduino{
+    position: relative;
+    top: 10em;
+    left: 10em;
+    .circle {
+    	width: 300px;
+    	height: 300px;
+    	background: #019CA1;
+        @include prefixed( border-radius, 150px );
+    }
+
+
+
+    /**/
+    .arduino {
+        position: relative;
+        width: 212px;
+        height: 100px;
+        top: 100px;
+        left: 45px;
+    }
+
+    .arduino:before,
+    .arduino:after {
+        content: "";
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 60px;
+        height: 60px;
+        border: 20px solid white;
+        @include prefixed( border-radius, 50px 50px 0 50px );
+        @include prefixed( transform, rotate(-45deg) );
+    }
+
+    .arduino:after {
+        left: auto;
+        right: 0;
+
+        @include prefixed( border-radius, 50px 50px 50px 0 );
+        @include prefixed( transform, rotate(45deg) );
+
+    }
+    /**/
+    .negitive{
+        width: 40px;
+        height: 12.5px;
+        background: white;
+
+        position: absolute;
+        top: 143px;
+        left: 77px;
+    }
+
+    /* Positive */
+    .plus {
+        position: absolute;
+        top: -7px;
+        left: -7px;
+        .horizontal{
+            width: 40px;
+            height: 12.5px;
+            background: white;
+            position: absolute;
+            top: 154px;
+            left: 195px;
+        }
+        .vertical{
+            width: 12.5px;
+            height: 40px;
+            background: white;
+
+            position: absolute;
+            top: 140px;
+            left: 209px;
+        }  
+    }
+}

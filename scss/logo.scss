@@ -1,0 +1,88 @@
+// Background Colors
+$primary-color:#e44c27;
+$secondary-color:#f0652a;
+
+// Logo Size
+	// Create function
+
+
+.center{
+	position: absolute;
+	top: 5em;
+	left: 10em;
+}
+
+.logo{
+margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;line-height: 1;color: black;background: white;	
+}
+
+.html5{
+padding-bottom: 10px;border-bottom-width: 6px;margin: 66px auto 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;width: 134px;height: 154px;display: block;position: relative;	
+
+}
+.icon{
+margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+}
+
+.bg{
+margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+
+	.right{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		// 
+		position: absolute;left: 64px;top: -1px;
+		// 
+		background:$primary-color; // #e44c27
+		width: 40px;height: 112px;display: block;
+		-webkit-transform: skew(-5deg);-moz-transform: skew(-5deg);	
+	}
+	.left{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		position: absolute;left: 15px;top: -1px;
+		background: $primary-color;
+		width: 40px;height: 112px;display: block;
+		-webkit-transform: skew(5deg);-moz-transform: skew(5deg);
+	}
+	.bottom{
+		margin: 0px 10px;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		position: absolute;top: 111px;left: 11px;display: block;
+
+		border-color: $primary-color transparent transparent;
+		border-style: solid;
+		border-width: 18.5px 40px 0px;
+		height: 0px;width: 0px;
+	}
+	.middle{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		position: absolute;left: 30px;top: -1px;
+		background: $primary-color;
+		width: 48px;height: 111px;display: block;
+	}
+}
+
+.overlay{
+	margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+	height: 400px;width: 150px;
+	position: absolute;left: 61px;top: -88px;
+	display: block;overflow: hidden;
+	.top{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		width: 78px;	height: 99px;
+		position: absolute;	top: 96px;left: -43px;
+		display: block;
+		background: $secondary-color;
+		-webkit-transform: skew(-5deg);-moz-transform: skew(-5deg);
+	}
+	.bottom{
+		margin: 0px 10px;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+		position: absolute;top: 194px;left: -179px;
+		display: block;
+
+		border-color: $secondary-color transparent transparent; // #f0652a
+		border-style: solid;border-width: 40px 101px 0px;
+		height: 0px;width: 0px;
+	}
+}
+
+@import "skills/html5";
+
