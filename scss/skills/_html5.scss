@@ -1,0 +1,35 @@
+// Add variables for Color
+
+// the five
+.text{
+	margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+	.left{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;top: -121px;left: -123px;width: 163px;height: 400px;
+		.top{
+			margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 34px;height: 15px;background: #ebebeb;top: 137px;left: 154px;
+		}
+		.left{
+			margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 15px;height: 29px;background: #ebebeb;top: 152px;left: 155px;-webkit-transform: skew(5deg);-moz-transform: skew(5deg);
+		}
+		.middle{
+			margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 26px;height: 12px;background: #ebebeb;top: 169px;left: 158px;
+		}
+		.bottom{
+			margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 27px;height: 15px;background: #ebebeb;top: 207px;left: 159px;-webkit-transform: rotate(12deg);-moz-transform: rotate(12deg);
+		}
+		.vert{
+			margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 12px;height: 25px;background: #ebebeb;top: 192px;left: 157px;-webkit-transform: skew(5deg);-moz-transform: skew(5deg);
+		}
+	}
+	.right{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;height: 400px;width: 150px;top: -122px;left: 61px;display: block;position: absolute;overflow: hidden;
+		.top{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 31px;height: 15px;background: #ffffff;top: 138px;left: -3px;-webkit-transform: skew(-5deg);-moz-transform: skew(-5deg);}
+		.right{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;height: 51px;width: 12px;left: 12px;top: 170px;position: absolute;overflow: hidden;background: #ffffff;-webkit-transform: skew(-5deg);-moz-transform: skew(-5deg);}
+		.middle{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 20px;height: 12px;background: #ffffff;top: 170px;left: 0px;}
+		.bottom{
+		margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;display: block;position: absolute;width: 26px;height: 15px;background: #ffffff;top: 209px;left: -5px;-webkit-transform: rotate(-12deg);-moz-transform: rotate(-12deg);}
+	}
+}

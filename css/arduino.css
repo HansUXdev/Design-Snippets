@@ -1,0 +1,97 @@
+/* line 5, ../scss/arduino.scss */
+#arduino {
+  position: relative;
+  top: 10em;
+  left: 10em;
+  /**/
+  /**/
+  /* Positive */
+}
+/* line 9, ../scss/arduino.scss */
+#arduino .circle {
+  width: 300px;
+  height: 300px;
+  background: #019CA1;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+  border-radius: 150px;
+}
+/* line 19, ../scss/arduino.scss */
+#arduino .arduino {
+  position: relative;
+  width: 212px;
+  height: 100px;
+  top: 100px;
+  left: 45px;
+}
+/* line 27, ../scss/arduino.scss */
+#arduino .arduino:before,
+#arduino .arduino:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border: 20px solid white;
+  -webkit-border-radius: 50px 50px 0 50px;
+  -moz-border-radius: 50px 50px 0 50px;
+  -ms-border-radius: 50px 50px 0 50px;
+  -o-border-radius: 50px 50px 0 50px;
+  border-radius: 50px 50px 0 50px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 42, ../scss/arduino.scss */
+#arduino .arduino:after {
+  left: auto;
+  right: 0;
+  -webkit-border-radius: 50px 50px 50px 0;
+  -moz-border-radius: 50px 50px 50px 0;
+  -ms-border-radius: 50px 50px 50px 0;
+  -o-border-radius: 50px 50px 50px 0;
+  border-radius: 50px 50px 50px 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 51, ../scss/arduino.scss */
+#arduino .negitive {
+  width: 40px;
+  height: 12.5px;
+  background: white;
+  position: absolute;
+  top: 143px;
+  left: 77px;
+}
+/* line 62, ../scss/arduino.scss */
+#arduino .plus {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+}
+/* line 66, ../scss/arduino.scss */
+#arduino .plus .horizontal {
+  width: 40px;
+  height: 12.5px;
+  background: white;
+  position: absolute;
+  top: 154px;
+  left: 195px;
+}
+/* line 74, ../scss/arduino.scss */
+#arduino .plus .vertical {
+  width: 12.5px;
+  height: 40px;
+  background: white;
+  position: absolute;
+  top: 140px;
+  left: 209px;
+}
